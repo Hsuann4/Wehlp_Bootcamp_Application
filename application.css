@@ -1,0 +1,62 @@
+
+body{
+    background-color: #D9CDC5;
+}
+
+h1{ 
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: black;  
+    text-align: center; 
+    margin-left: 10cm;
+    margin-right: 10cm;
+    height: auto;
+    width: auto;
+
+}
+
+p{
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 25px;
+    text-indent: 1cm;
+}
+
+ul{
+    
+    border-style: dotted;
+    padding: 1cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    background-color: #ccc;
+}
+
+ul ul {
+    border-style: none;
+    margin-left:0cm;
+}
+
+
+li li a {
+    border: 5px;
+}
+
+a:hover{
+    background-color: rgb(202, 87, 110);
+}
+
+#agenda{
+    text-align: center;
+    border-style: none;
+    background-color: #D9CDC5;
+}
+#agenda li{
+    display: inline-block;
+    border: 1px #ccc, sloid;
+    margin-right: 25px;
+    
+}
+
+
+.spotify{
+    width: auto;
+}
